@@ -11,7 +11,7 @@ export const TRANSACTIONS_PER_PAGE = 5;
 export const API_DELAY_MS = 800;
 
 /** The path to the mock transaction data JSON file */
-export const TRANSACTIONS_API_URL = '/data/transactions.json';
+export const TRANSACTIONS_API_URL = `${import.meta.env.BASE_URL}data/transactions.json`;
 
 /** Number of recent months to show by default in customer breakdown */
 export const DEFAULT_RECENT_MONTHS = 3;

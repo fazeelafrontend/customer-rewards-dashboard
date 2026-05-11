@@ -5,7 +5,7 @@ import './styles/app.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="app" id="app-root">
         {/* Global navigation header */}
         <header className="app-header" id="app-header">
